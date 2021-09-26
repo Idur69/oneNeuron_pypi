@@ -3,7 +3,7 @@ import setuptools
 with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 PROJECT_NAME = "oneNeuron_pypi"
-USER_NAME = "idurbasha"
+USER_NAME = "idur"
 
 setuptools.setup(
     name=f"{PROJECT_NAME}-{USER_NAME}",
@@ -25,4 +25,8 @@ setuptools.setup(
     package_dir={"": "src"},
     packages=setuptools.find_packages(where="src"),
     python_requires=">=3.6",
+    install_requires=[
+        "numpy",
+        "tqdm"
+    ]
 )
