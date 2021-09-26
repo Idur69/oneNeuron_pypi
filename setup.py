@@ -3,7 +3,7 @@ import setuptools
 with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 PROJECT_NAME = "oneNeuron_pypi"
-USER_NAME = "idur"
+USER_NAME = "idur69"
 
 setuptools.setup(
     name=f"{PROJECT_NAME}-{USER_NAME}",
